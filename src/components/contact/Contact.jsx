@@ -30,7 +30,6 @@ const Contact = () => {
           </div>
           <div className=" flex p-5 items-center justify-center ">
             <button
-              
               data-aos="zoom-in"
               
               className= " text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
@@ -45,18 +44,18 @@ const Contact = () => {
             data-aos="zoom-in"
             
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="mailto:xyz@gmail.com"
+            action="mailto:adugnatefera12@gmail.com.com"
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="email"
-              placeholder="e.g. example@email.com"
+              placeholder="e.g. your@email.com"
               name=""
             />
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="text"
-              placeholder="e.g. Du Web"
+              placeholder="e.g. Du Web "
               name=""
             />
             <textarea
