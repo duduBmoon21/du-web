@@ -24,7 +24,7 @@ const Work = () => {
         </p>
       </div>
       {/* card */}
-      {/* <div
+      <div
             data-aos="zoom-in"
        
             className="flex flex-col justify-center items-center gap-4"
@@ -52,7 +52,7 @@ const Work = () => {
                  </div>  
      
       </POPUP>
-     </div> */}
+     </div>
 
 <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex-1 flex items-center justify-center">
