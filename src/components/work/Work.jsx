@@ -48,7 +48,6 @@ const Work = () => {
             key={index}
             title={project.title}
             description={project.description}
-        
             link={project.link}
             
           />
@@ -114,7 +113,25 @@ const projectData = [
   },
   {
     title: "Project 2",
-    description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "",
+  
+    link: "https://example.com/project2"
+  },
+  {
+    title: "Project 2",
+    description: "",
+  
+    link: "https://example.com/project2"
+  },
+  {
+    title: "Project 3",
+    description: "",
+  
+    link: "https://example.com/project2"
+  },
+{
+    title: "Project 4",
+    description: "",
   
     link: "https://example.com/project2"
   }
