@@ -28,8 +28,7 @@ const Work = () => {
 <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex-1 flex items-center justify-center">
         
-     <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">			
-            <div
+         <div
             data-aos="zoom-in"
        
             className="flex flex-col justify-center items-center gap-4"
@@ -56,7 +55,7 @@ const Work = () => {
       </POPUP>
      </div>
 
-            </legend>
+          
        
             </div>
             </div>
