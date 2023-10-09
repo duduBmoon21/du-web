@@ -27,7 +27,17 @@ const Work = () => {
       
 
         <POPUP className="img-content relative">
-               
+
+
+          <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
+        <div className="left flex-1 flex items-center justify-center">
+        
+         <div
+            data-aos="zoom-in"
+       
+            className="flex flex-col justify-center items-center gap-4"
+          >
+  
      <div className=" flex items-center justify-center gap-4">
        <fieldset
             data-aos="zoom-in"
@@ -46,6 +56,10 @@ const Work = () => {
           />
             </legend>
             </fieldset>
+
+            </div>
+            </div>
+            </div>
         ))}
          <br className="w-[2px] bg-white" />
                  </div>  
