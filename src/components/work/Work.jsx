@@ -37,7 +37,8 @@ const Work = () => {
         <POPUP className="img-content relative">
                
      <div className=" flex items-center justify-center gap-4">
-                  
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+                 
          {projectData.map((project, index) => (
           
           <ProjectCard 
@@ -47,6 +48,7 @@ const Work = () => {
             link={project.link}
             
           />
+            </legend>
           
         ))}
          <br className="w-[2px] bg-white" />
