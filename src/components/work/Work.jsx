@@ -37,7 +37,11 @@ const Work = () => {
         <POPUP className="img-content relative">
                
      <div className=" flex items-center justify-center gap-4">
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+       <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >     
+       <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
                  
          {projectData.map((project, index) => (
           
@@ -49,7 +53,7 @@ const Work = () => {
             
           />
             </legend>
-          
+            </fieldset>
         ))}
          <br className="w-[2px] bg-white" />
                  </div>  
