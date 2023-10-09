@@ -16,7 +16,8 @@ const Work = () => {
         <h3 className="text-3xl font-black text-gray-400 sm:text-2xl">Projects</h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-      <div  data-aos="fade-up"
+      <div 
+      data-aos="fade-up"
        className="left flex-1 w-full">
         <p className="text-gray-700 font-medium w-[100%]">
           Here are some of my projects.
@@ -38,8 +39,12 @@ const Work = () => {
           >
   
      <div className=" flex items-center justify-center gap-4">
-       
-       <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+       <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >     
+       <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1
+        px-8 font-semibold text-xl text-yellow-500">
                  
          {projectData.map((project, index) => (
           
@@ -50,11 +55,14 @@ const Work = () => {
             link={project.link}
             
           />
-            </legend>
-            </div>
-            </div>
-            </div>
+           
         ))}
+         </legend>
+            </fieldset>
+
+            </div>
+            </div>
+            </div>
          <br className="w-[2px] bg-white" />
                  </div>  
      
