@@ -108,7 +108,7 @@ const projectData = [
   {
     title: "Project 1",
     description: "",
-description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
   
  
   },
