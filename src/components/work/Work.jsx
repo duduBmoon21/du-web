@@ -108,8 +108,6 @@ const projectData = [
   {
     title: "Project 1",
     description: "",
-
-  
  
   },
   {
@@ -119,18 +117,18 @@ const projectData = [
     link: "https://example.com/project2"
   },
   {
-    title: "Project 2",
+    title: "Project 3",
     description: "oin our community and receive the latest updates on Apps and Games",
 
   },
   {
-    title: "Project 3",
+    title: "Project 4",
     description: "yyyy",
   
     link: "https://example.com/project2"
   },
 {
-    title: "Project 4",
+    title: "Project 5",
     description: "",
   
     link: "https://example.com/project2"
