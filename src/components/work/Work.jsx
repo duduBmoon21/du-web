@@ -25,15 +25,7 @@ const Work = () => {
       </div>
       {/* card */}
       
-<div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
-        <div className="left flex-1 flex items-center justify-center">
-        
-         <div
-            data-aos="zoom-in"
-       
-            className="flex flex-col justify-center items-center gap-4"
-          >
-  
+
         <POPUP className="img-content relative">
                
      <div className=" flex items-center justify-center gap-4">
@@ -59,12 +51,7 @@ const Work = () => {
                  </div>  
      
       </POPUP>
-     </div>
-
-          
-       
-            </div>
-            </div>
+ 
       <br className="w-[2px] bg-white" /> <br className="w-[2px] bg-white" />
       
     </div>
