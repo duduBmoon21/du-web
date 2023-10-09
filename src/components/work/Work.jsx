@@ -129,7 +129,7 @@ const projectData = [
   },
 {
     title: "Project 5",
-    description: "",
+    description: "d",
   
     link: "https://example.com/project2"
   }
